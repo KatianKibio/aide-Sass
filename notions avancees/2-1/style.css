@@ -1,0 +1,32 @@
+body {
+  background: url(https://images7.alphacoders.com/101/1014075.jpg);
+}
+
+.box {
+  margin: 50px;
+  padding: 50px;
+  -webkit-box-shadow: 4px 4px 10px lightgray;
+          box-shadow: 4px 4px 10px lightgray;
+  border-radius: 6px;
+  width: 400px;
+  background: rgba(0, 140, 255, 0.2);
+  text-shadow: 1px 1px 1px #0c0909;
+}
+
+.box h4 {
+  color: #0070cc;
+  font-size: 1.6em;
+  margin: 5px 0;
+}
+
+.box p {
+  color: #008cff;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.box a {
+  color: #33a3ff;
+  font-size: 1.6em;
+}
+/*# sourceMappingURL=style.css.map */

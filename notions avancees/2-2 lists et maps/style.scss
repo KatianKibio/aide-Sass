@@ -1,0 +1,12 @@
+$radius : 120px 10px 8px 14px; // une liste dans une variable
+$list-width : 20px 200px 1000px;
+
+$font-weights: ("regular": 400, "medium":500, "bold":700); // une map
+
+.box {
+    background: #000;
+    width: nth($list-width, 3);//methode nth pour choisir une seule valeur - 3 = 1000px
+    height: 200px;
+
+    border-radius: $radius;
+}

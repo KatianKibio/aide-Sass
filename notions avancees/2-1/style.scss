@@ -1,0 +1,35 @@
+
+$info: #008cff;
+$info-darker: darken($info, 10%);//fonction pour assombrir
+$info-lighter: lighten($info, 10%);//fonction pour eclaicir
+$semi-info-transparent: fade-out($info, 0.8);//fonction de transparence
+
+body {
+    background: url(https://images7.alphacoders.com/101/1014075.jpg);
+}
+.box {
+    margin: 50px;
+    padding: 50px;
+    box-shadow: 4px 4px 10px lightgray;
+    border-radius: 6px;
+    width: 400px;
+    background: $semi-info-transparent;
+    text-shadow: 1px 1px 1px #0c0909;
+
+    h4 {
+        color: $info-darker;
+        font-size: 1.6em;
+        margin: 5px 0;
+    }
+
+    p {
+        color: $info;
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+    a {
+        color: $info-lighter;
+        font-size: 1.6em;
+    }
+}

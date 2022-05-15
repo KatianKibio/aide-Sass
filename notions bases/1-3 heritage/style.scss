@@ -1,0 +1,12 @@
+%highlight {
+    color: #0984e3;
+    font-weight: bold;
+}//rempacer .highlight par %highlight
+
+.important-information {
+    p {
+       @extend %highlight;
+    
+    }
+    
+}

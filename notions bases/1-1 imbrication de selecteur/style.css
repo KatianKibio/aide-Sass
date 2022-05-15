@@ -1,0 +1,22 @@
+.warning {
+  position: relative;
+  border: 2px solid orange;
+  padding: 20px;
+}
+
+.warning p {
+  color: orange;
+}
+
+.warning:hover {
+  background: lightblue;
+}
+
+.warning::after {
+  content: '';
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  background: #000;
+}
+/*# sourceMappingURL=style.css.map */

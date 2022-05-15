@@ -1,0 +1,51 @@
+/*p {
+    font-size: 1em;
+    color: #0984e3;
+}
+
+.title {
+    font-size: 2.4em;
+    color:#0984e3;
+}
+
+a {
+    font-size: 0.7em;
+    color: #0984e3;
+}
+
+.warning {
+    .title {
+        font-size: 2.4em;
+        color:#ff9f43;
+    }
+
+    p {
+        font-size: 1em;
+        color:#ff9f43;
+    }
+}*/
+p {
+  font-size: 1em;
+  color: #0984e3;
+}
+
+.title {
+  font-size: 2.4em;
+  color: #0984e3;
+}
+
+a {
+  font-size: 0.7em;
+  color: #0984e3;
+}
+
+.warning .title {
+  font-size: 2.4em;
+  color: #ff9f43;
+}
+
+.warning p {
+  font-size: 1em;
+  color: #ff9f43;
+}
+/*# sourceMappingURL=style.css.map */
